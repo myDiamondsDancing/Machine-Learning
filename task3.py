@@ -1,4 +1,3 @@
-
 # coding: utf-8
 
 # In[80]:
@@ -46,7 +45,8 @@ y_data
 # In[86]:
 
 
-get_ipython().run_line_magic('matplotlib', 'inline')
+#For Jupyter
+#matplotlib inline
 
 plt.xlabel('year')
 plt.ylabel('population')
@@ -148,3 +148,6 @@ plt.savefig(r'C:\Python for beginners\ML\3.png', format='png')
 
 
 len(set(df.country))
+
+# Not for Jupyter
+plt.show()
